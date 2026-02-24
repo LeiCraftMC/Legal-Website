@@ -20,6 +20,7 @@
     <p>
         E-Mail: <a href="mailto:support@leicraftmc.de" target="_blank">support@leicraftmc.de</a><br>
         Tel: <a href="tel:+4934196258740" target="_blank">+49 341 9625 8740</a>
+        WhatsApp: <a href="https://wa.me/4934196258740" target="_blank">+49 341 9625 8740</a>
     </p>
 
 </template>
