@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useHead } from "nuxt/app";
 import type { NavigationMenuItem } from "@nuxt/ui";
+import LCMCIcon from "~/components/img/LCMCIcon.vue";
 
 useSeoMeta({
     title: "Rechtliches | LeiCraft_MC",
@@ -33,27 +33,54 @@ const links = [[
 
 <template>
 
-    <UHeader>
-        <template #title>
-            <span class="font-bold">LeiCraft_MC</span>
-        </template>
+    <div class="app-layout main-bg-color">
 
-        <UNavigationMenu :items="links" />
-        
-        <template #body>
-            <UNavigationMenu :items="links" orientation="vertical" class="w-full" />
-        </template>
+        <UHeader>
+            <template #title>
+                <NuxtLink to="/" :class="`flex items-center gap-1.5`">
+                    <LCMCIcon class="w-10 h-10" />
+                    <span class="text-lg font-semibold">
+                        LeiCraft_MC
+                    </span>
+                </NuxtLink>
+            </template>
+
+            <UNavigationMenu :items="links" />
+
+            <template #body>
+                <UNavigationMenu :items="links" orientation="vertical" class="w-full" />
+            </template>
 
 
-    
-    </UHeader>
 
-    <UMain class="py-8">
-        <UContainer>
-            <div class="border-4 border-gray-300 p-6 rounded-lg">
-                <slot />
+        </UHeader>
+
+        <UMain class="py-8 main-content">
+            <UContainer>
+                <div class="border-4 border-gray-300 p-6 rounded-lg">
+                    <slot />
+                </div>
+            </UContainer>
+        </UMain>
+
+        <UFooter class="mt-8 bg-neutral-900">
+            <div class="text-sm text-slate-500 text-center">
+                &copy; {{ new Date().getFullYear() }} Delivr Project. All rights reserved.
             </div>
-        </UContainer>
-    </UMain>
-    
+        </UFooter>
+
+    </div>
+
 </template>
+
+<style scoped>
+.app-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+</style>
