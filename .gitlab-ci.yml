@@ -29,5 +29,5 @@ build_and_deploy_pages:
 
     - echo "Deploying to production & $CI_PAGES_URL"
 
-    #- .gitlab/ci/deploy.sh
+    - .gitlab/ci/deploy.sh
 
