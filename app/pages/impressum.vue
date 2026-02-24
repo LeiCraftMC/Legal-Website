@@ -1,18 +1,61 @@
 <template>
-    <h1 class="text-4xl font-bold mb-4">Impressum</h1>
-    <p class="text-base mb-4"><strong class="font-bold">Verantwortlich für diese Website:</strong></p>
-    <p class="text-base mb-4"><strong class="font-bold">Verantwortlich:</strong><br>
-        Florin Kolb<br>
-        Burgernzielweg 16<br>
-        3006 Bern<br>
-        Schweiz</p>
-    <p class="text-base mb-4"><strong class="font-bold">Kontakt:</strong><br>
-        Email: <a href="mailto:info@kolb.li" class="text-blue-500 hover:underline">info@kolb.li</a></p>
-    <p class="text-base mb-4">Tel: <a href="tel:+41791234567" class="text-blue-500 hover:underline">+41 (0) 77 418 77
-            81</a></p>
-    <p class="text-base mb-4">Discord: <a href="https://discord.com/users/871714118946660352"
-            class="text-blue-500 hover:underline">https://discord.com/users/871714118946660352</a></p>
-    <p class="text-base mb-4">Whatsapp: <a href="https://wa.me/41774187781"
-            class="text-blue-500 hover:underline">https://wa.me/41774187781</a></p>
+
+    <h1>Impressum</h1>
+    <br>
+    <h3>Angaben gemäß § 5 TMG</h3>
+    <br>
+    <br>
+    <b>Betreiber:</b>
+    <br>
+    <p>
+        Linus Fischer<br>
+        Stötteritzer Str. 19<br>
+        04317 Leipzig<br>
+        Deutschland
+    </p>
+    <br>
+    <br>
+    <b>Kontakt:</b>
+    <br>
+    <p>
+        E-Mail: <a href="mailto:support@leicraftmc.de">support@leicraftmc.de</a><br>
+        Tel: <a href="tel:+4934196258740">+49 341 9625 8740</a>
+    </p>
+    <br>
+    <br>
+    <br>
+    <h2>Haftungsausschluss:</h2>
+    <br>
+    <h4>Haftung für Inhalte</h4>
+    <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
+        Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1
+        TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind
+        wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu
+        überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur
+        Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
+        Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung
+        möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+    </p>
+    <br>
+    <h4>Haftung für Links</h4>
+    <p> Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb
+        können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist
+        stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum
+        Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der
+        Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete
+        Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
+        derartige Links umgehend entfernen. </p>
+    <br>
+    <h4>Urheberrecht</h4>
+    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
+        Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen
+        des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und
+        Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf
+        dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden
+        Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam
+        werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir
+        derartige Inhalte umgehend entfernen.</p>
+    <p>Externe Inhalte und Quellen welche nicht LeiCraft_MC sind kannst du <a href="/external-sources/">hier</a> finden.
+    </p>
 
 </template>

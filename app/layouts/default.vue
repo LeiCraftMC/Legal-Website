@@ -3,8 +3,8 @@ import { useHead } from "nuxt/app";
 import type { NavigationMenuItem } from "@nuxt/ui";
 
 useSeoMeta({
-    title: "Rechtliches | EinfachFloTV",
-    description: "Rechtliche Informationen und Hinweise zu EinfachFloTV, deinem Anlaufpunkt für einfache und verständliche Erklärungen zu rechtlichen Themen.",
+    title: "Rechtliches | LeiCraft_MC",
+    description: "Rechtliche Informationen und Hinweise zu LeiCraft_MC, deinem Anlaufpunkt für einfache und verständliche Erklärungen zu rechtlichen Themen.",
 });
 
 const links = [[
@@ -35,7 +35,7 @@ const links = [[
 
     <UHeader>
         <template #title>
-            <span class="font-bold">EinfachFloTV</span>
+            <span class="font-bold">LeiCraft_MC</span>
         </template>
 
         <UNavigationMenu :items="links" />

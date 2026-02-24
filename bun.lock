@@ -1,8 +1,9 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "einfachflotv-leagl-website",
+      "name": "leicraftmc-leagl-website",
       "dependencies": {
         "@nuxt/ui": "^4.3.0",
         "nuxt": "^4.2.2",
