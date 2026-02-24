@@ -1,5 +1,5 @@
 export default defineAppConfig({
-     ui: {
+    ui: {
         colors: {
             primary: 'sky',
             neutral: 'slate'
@@ -9,5 +9,4 @@ export default defineAppConfig({
         radius: 0.5,
         blackAsPrimary: false
     }
-
 });
