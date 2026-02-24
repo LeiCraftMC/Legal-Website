@@ -1,13 +1,18 @@
 <template>
-    <div class="prose prose-invert max-w-none">
+    <div class="prose prose-invert max-w-none" style="word-wrap: break-word;">
+
         <h1>Impressum</h1>
-        <p>Angaben gemäß § 5 DDG</p>
+
+        <h3>Angaben gemäß § 5 DDG</h3>
+
         <p>
             <strong>Linus Fischer</strong>
             <br>
             Stötteritzer Str. 19
             <br>
             04317 Leipzig
+            <br>
+            Deutschland
             <br>
         </p>
         <p>
@@ -37,6 +42,8 @@
             <br>
             04317 Leipzig
             <br>
+            Deutschland
+            <br>
         </p>
         <p>
             <strong>Verbraucherstreitbeilegung / Universalschlichtungsstelle</strong>
@@ -46,7 +53,8 @@
         </p>
         <p>
             <strong>Datenschutzerklärung</strong><br>
-            Unter dem folgenden Link finden Sie unsere <a href="/datenschutz" target="_blank">Datenschutzerklärung</a>.
+            Unter dem folgenden Link finden Sie unsere
+            <NuxtLink to="/datenschutz">Datenschutzerklärung</NuxtLink>.
         </p>
     </div>
 </template>

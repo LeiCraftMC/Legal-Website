@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="prose prose-invert max-w-none" style="word-wrap: break-word;">
         <h1 class="text-4xl font-bold mb-6">Cookies</h1>
         <p class="text-base leading-relaxed">
             Diese Website verwendet Cookies, um bestimmte Funktionen
