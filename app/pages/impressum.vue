@@ -1,3 +1,12 @@
+<script setup lang="ts">
+
+useSeoMeta({
+    title: "Impressum | Rechtliches | LeiCraft_MC",
+    description: "Rechtliche Informationen und Hinweise zu LeiCraft_MC",
+});
+
+</script>
+
 <template>
     <div class="prose prose-invert max-w-none" style="word-wrap: break-word;">
 

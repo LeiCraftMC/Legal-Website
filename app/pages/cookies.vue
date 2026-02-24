@@ -1,3 +1,12 @@
+<script setup lang="ts">
+
+useSeoMeta({
+    title: "Cookies | Rechtliches | LeiCraft_MC",
+    description: "Rechtliche Informationen und Hinweise zu LeiCraft_MC",
+});
+
+</script>
+
 <template>
     <div class="prose prose-invert max-w-none" style="word-wrap: break-word;">
         <h1 class="text-4xl font-bold mb-6">Cookies</h1>

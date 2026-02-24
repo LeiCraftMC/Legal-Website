@@ -2,11 +2,6 @@
 import type { NavigationMenuItem } from "@nuxt/ui";
 import LCMCIcon from "~/components/img/LCMCIcon.vue";
 
-useSeoMeta({
-    title: "Rechtliches | LeiCraft_MC",
-    description: "Rechtliche Informationen und Hinweise zu LeiCraft_MC, deinem Anlaufpunkt für einfache und verständliche Erklärungen zu rechtlichen Themen.",
-});
-
 const links = [[
     {
         label: "Impressum",
