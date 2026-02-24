@@ -36,10 +36,10 @@ const links = [[
     <div class="app-layout main-bg-color">
 
         <UHeader>
-            <template #title>
+            <template #left>
                 <NuxtLink to="/" :class="`flex items-center gap-1.5`">
                     <LCMCIcon class="w-10 h-10" />
-                    <span class="text-lg font-semibold">
+                    <span class="text-2xl font-extrabold">
                         LeiCraft_MC
                     </span>
                 </NuxtLink>
