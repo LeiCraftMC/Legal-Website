@@ -87,10 +87,22 @@
             <br />
             Deutschland
         </p>
-        E-Mail-Adresse:
-        <p><a href="mailto:support@leicraftmc.de">support@leicraftmc.de</a></p>
-        Impressum:
+        
         <p>
+            <strong>Kontakt:</strong>
+
+            <br>
+            E-Mail: <a href="mailto:support@leicraftmc.de" target="_blank">support@leicraftmc.de</a>
+            <br>
+            Telefon: <a href="tel:+4934196258740" target="_blank">+49 341 9625 8740</a>
+            <br>
+            WhatsApp: <a href="https://wa.me/4934196258740" target="_blank">+49 341 9625 8740</a>
+            </br>
+        </p>
+        
+        <p>
+            <strong>Impressum:</strong>
+            <br>
             <NuxtLink to="/impressum">Zum Impressum</NuxtLink>
         </p>
         <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
