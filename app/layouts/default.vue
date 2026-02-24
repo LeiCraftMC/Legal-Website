@@ -65,7 +65,7 @@ const links = [[
 
         <UFooter class="mt-8 bg-neutral-900">
             <div class="text-sm text-slate-500 text-center">
-                &copy; {{ new Date().getFullYear() }} Delivr Project. All rights reserved.
+                &copy; {{ new Date().getFullYear() }} LeiCraft_MC. All rights reserved.
             </div>
         </UFooter>
 
