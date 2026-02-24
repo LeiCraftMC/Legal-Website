@@ -1,6 +1,7 @@
 <template>
-    <h1 class="text-4xl font-bold mb-4">Datenschutzerklärung</h1>
-    <h2 class="text-3xl font-semibold mb-3" id="m1870">Einleitung</h2>
+    <div>
+        <h1 class="text-4xl font-bold mb-6">Datenschutzerklärung</h1>
+        <h2 class="text-3xl font-semibold mb-3" id="m1870">Einleitung</h2>
     <p class="text-base mb-4">
         Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
         aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch
@@ -11,79 +12,59 @@
     <p class="text-base mb-4">Stand: 22. Dezember 2022</p>
     <h2 class="text-3xl font-semibold mb-3">Inhaltsübersicht</h2>
     <ul class="index list-disc pl-6 mb-4">
-        <li class="mb-2"><a class="index-link" href="#m1870">Einleitung</a></li>
-        <li class="mb-2"><a class="index-link" href="#m3">Verantwortlicher</a></li>
+        <li class="mb-2"><ULink to="#m1870">Einleitung</ULink></li>
+        <li class="mb-2"><ULink to="#m3">Verantwortlicher</ULink></li>
         <li class="mb-2">
-            <a class="index-link" href="#mOverview"
-                >Übersicht der Verarbeitungen</a
-            >
+            <ULink to="#mOverview">Übersicht der Verarbeitungen</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m13">Maßgebliche Rechtsgrundlagen</a>
+            <ULink to="#m13">Maßgebliche Rechtsgrundlagen</ULink>
         </li>
-        <li class="mb-2"><a class="index-link" href="#m27">Sicherheitsmaßnahmen</a></li>
+        <li class="mb-2"><ULink to="#m27">Sicherheitsmaßnahmen</ULink></li>
         <li class="mb-2">
-            <a class="index-link" href="#m25"
-                >Übermittlung von personenbezogenen Daten</a
-            >
+            <ULink to="#m25">Übermittlung von personenbezogenen Daten</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m24"
-                >Datenverarbeitung in Drittländern</a
-            >
+            <ULink to="#m24">Datenverarbeitung in Drittländern</ULink>
         </li>
-        <li class="mb-2"><a class="index-link" href="#m12">Löschung von Daten</a></li>
-        <li class="mb-2"><a class="index-link" href="#m317">Geschäftliche Leistungen</a></li>
+        <li class="mb-2"><ULink to="#m12">Löschung von Daten</ULink></li>
+        <li class="mb-2"><ULink to="#m317">Geschäftliche Leistungen</ULink></li>
         <li class="mb-2">
-            <a class="index-link" href="#m225"
-                >Bereitstellung des Onlineangebotes und Webhosting</a
-            >
+            <ULink to="#m225">Bereitstellung des Onlineangebotes und Webhosting</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m367"
-                >Registrierung, Anmeldung und Nutzerkonto</a
-            >
+            <ULink to="#m367">Registrierung, Anmeldung und Nutzerkonto</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m182"
-                >Kontakt- und Anfragenverwaltung</a
-            >
+            <ULink to="#m182">Kontakt- und Anfragenverwaltung</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m263"
-                >Webanalyse, Monitoring und Optimierung</a
-            >
+            <ULink to="#m263">Webanalyse, Monitoring und Optimierung</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m328"
-                >Plugins und eingebettete Funktionen sowie Inhalte</a
-            >
+            <ULink to="#m328">Plugins und eingebettete Funktionen sowie Inhalte</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m15"
-                >Änderung und Aktualisierung der Datenschutzerklärung</a
-            >
+            <ULink to="#m15">Änderung und Aktualisierung der Datenschutzerklärung</ULink>
         </li>
         <li class="mb-2">
-            <a class="index-link" href="#m10"
-                >Rechte der betroffenen Personen</a
-            >
+            <ULink to="#m10">Rechte der betroffenen Personen</ULink>
         </li>
-        <li class="mb-2"><a class="index-link" href="#m42">Begriffsdefinitionen</a></li>
+        <li class="mb-2"><ULink to="#m42">Begriffsdefinitionen</ULink></li>
     </ul>
     <h2 class="text-3xl font-semibold mb-3" id="m3">Verantwortlicher</h2>
     <p class="text-base mb-4">
         Linus Fischer<br />Stötteritzer Str. 19<br />04317 Leipzig<br />Deutschland
     </p>
-    <b>Kontakt:</b>
+    <strong class="font-bold">Kontakt:</strong>
     <p class="text-base mb-4">
-        E-Mail: <a href="mailto:support@leicraftmc.de" target="_blank">support@leicraftmc.de</a><br>
-        Tel: <a href="tel:+4934196258740" target="_blank">+49 341 9625 8740</a>
-        WhatsApp: <a href="https://wa.me/4934196258740" target="_blank">+49 341 9625 8740</a>
+        E-Mail: <ULink to="mailto:support@leicraftmc.de" target="_blank">support@leicraftmc.de</ULink><br>
+        Tel: <ULink to="tel:+4934196258740" target="_blank">+49 341 9625 8740</ULink><br>
+        WhatsApp: <ULink to="https://wa.me/4934196258740" target="_blank" external>+49 341 9625 8740</ULink>
     </p>
-    Impressum:
+    <strong class="font-bold">Impressum:</strong>
     <p class="text-base mb-4">
-        <NuxtLink to="/impressum" target="_blank">Zum Impressum</NuxtLink>
+        <ULink to="/impressum" target="_blank">Zum Impressum</ULink>
     </p>
     <h2 class="text-3xl font-semibold mb-3" id="mOverview">Übersicht der Verarbeitungen</h2>
     <p class="text-base mb-4">
@@ -246,11 +227,11 @@
         EU-Kommission, beim Vorliegen von Zertifizierungen oder verbindlicher
         internen Datenschutzvorschriften verarbeiten (Art. 44 bis 49 DSGVO,
         Informationsseite der EU-Kommission:
-        <a
-            href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
+        <ULink
+            to="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
             target="_blank"
-            >https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a
-        >).
+            external
+        >https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</ULink>).
     </p>
     <h2 class="text-3xl font-semibold mb-3" id="m12">Löschung von Daten</h2>
     <p class="text-base mb-4">
@@ -652,44 +633,40 @@
             House, Barrow Street, Dublin 4, Irland;
             <strong class="font-bold">Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1
             lit. a) DSGVO); <strong class="font-bold">Website:</strong>
-            <a
-                href="https://marketingplatform.google.com/intl/de/about/analytics/"
+            <ULink
+                to="https://marketingplatform.google.com/intl/de/about/analytics/"
                 target="_blank"
-                >https://marketingplatform.google.com/intl/de/about/analytics/</a
-            >; <strong class="font-bold">Datenschutzerklärung:</strong>
-            <a href="https://policies.google.com/privacy" target="_blank"
-                >https://policies.google.com/privacy</a
-            >; <strong class="font-bold">Auftragsverarbeitungsvertrag:</strong>
-            <a
-                href="https://business.safety.google/adsprocessorterms"
+                external
+            >https://marketingplatform.google.com/intl/de/about/analytics/</ULink>; <strong class="font-bold">Datenschutzerklärung:</strong>
+            <ULink to="https://policies.google.com/privacy" target="_blank" external>https://policies.google.com/privacy</ULink>; <strong class="font-bold">Auftragsverarbeitungsvertrag:</strong>
+            <ULink
+                to="https://business.safety.google/adsprocessorterms"
                 target="_blank"
-                >https://business.safety.google/adsprocessorterms</a
-            >;
-            <strong
-                >Standardvertragsklauseln (Gewährleistung Datenschutzniveau bei
-                Verarbeitung in Drittländern):</strong
-            >
-            <a
-                href="https://business.safety.google/adsprocessorterms"
+                external
+            >https://business.safety.google/adsprocessorterms</ULink>;
+            <strong>Standardvertragsklauseln (Gewährleistung Datenschutzniveau bei
+                Verarbeitung in Drittländern):</strong>
+            <ULink
+                to="https://business.safety.google/adsprocessorterms"
                 target="_blank"
-                >https://business.safety.google/adsprocessorterms</a
-            >;
+                external
+            >https://business.safety.google/adsprocessorterms</ULink>;
             <strong class="font-bold">Widerspruchsmöglichkeit (Opt-Out):</strong> Opt-Out-Plugin:
-            <a
-                href="https://tools.google.com/dlpage/gaoptout?hl=de"
+            <ULink
+                to="https://tools.google.com/dlpage/gaoptout?hl=de"
                 target="_blank"
-                >https://tools.google.com/dlpage/gaoptout?hl=de</a
-            >, Einstellungen für die Darstellung von Werbeeinblendungen:
-            <a
-                href="https://adssettings.google.com/authenticated"
+                external
+            >https://tools.google.com/dlpage/gaoptout?hl=de</ULink>, Einstellungen für die Darstellung von Werbeeinblendungen:
+            <ULink
+                to="https://adssettings.google.com/authenticated"
                 target="_blank"
-                >https://adssettings.google.com/authenticated</a
-            >; <strong class="font-bold">Weitere Informationen:</strong>
-            <a
-                href="https://privacy.google.com/businesses/adsservices"
+                external
+            >https://adssettings.google.com/authenticated</ULink>; <strong class="font-bold">Weitere Informationen:</strong>
+            <ULink
+                to="https://privacy.google.com/businesses/adsservices"
                 target="_blank"
-                >https://privacy.google.com/businesses/adsservices</a
-            >
+                external
+            >https://privacy.google.com/businesses/adsservices</ULink>
             (Arten der Verarbeitung sowie der verarbeiteten Daten).
         </li>
     </ul>
@@ -796,17 +773,13 @@
             House, Barrow Street, Dublin 4, Irland;
             <strong class="font-bold">Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6
             Abs. 1 S. 1 lit. f) DSGVO); <strong class="font-bold">Website:</strong>
-            <a href="https://fonts.google.com/" target="_blank"
-                >https://fonts.google.com/</a
-            >; <strong class="font-bold">Datenschutzerklärung:</strong>
-            <a href="https://policies.google.com/privacy" target="_blank"
-                >https://policies.google.com/privacy</a
-            >; <strong class="font-bold">Weitere Informationen:</strong>
-            <a
-                href="https://developers.google.com/fonts/faq/privacy?hl=de"
+            <ULink to="https://fonts.google.com/" target="_blank" external>https://fonts.google.com/</ULink>; <strong class="font-bold">Datenschutzerklärung:</strong>
+            <ULink to="https://policies.google.com/privacy" target="_blank" external>https://policies.google.com/privacy</ULink>; <strong class="font-bold">Weitere Informationen:</strong>
+            <ULink
+                to="https://developers.google.com/fonts/faq/privacy?hl=de"
                 target="_blank"
-                >https://developers.google.com/fonts/faq/privacy?hl=de</a
-            >.
+                external
+            >https://developers.google.com/fonts/faq/privacy?hl=de</ULink>.
         </li>
     </ul>
     <h2 class="text-3xl font-semibold mb-3" id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
@@ -969,13 +942,14 @@
         </li>
     </ul>
     <p class="seal text-base mb-4">
-        <a
-            href="https://datenschutz-generator.de/"
+        <ULink
+            to="https://datenschutz-generator.de/"
             title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
             target="_blank"
             rel="noopener noreferrer nofollow"
-            >Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas
-            Schwenke</a
-        >
+            external
+        >Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas
+            Schwenke</ULink>
     </p>
+    </div>
 </template>
