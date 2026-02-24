@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="prose prose-invert max-w-none">
         <p>
             <strong>Haftungsausschluss:</strong>
             <br>
@@ -44,7 +44,7 @@
             Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
             Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
             Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-            
+
         </p>
     </div>
 </template>

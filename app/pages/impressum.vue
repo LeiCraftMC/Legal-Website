@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="prose prose-invert max-w-none">
         <h1>Impressum</h1>
         <p>Angaben gemäß § 5 DDG</p>
         <p>
