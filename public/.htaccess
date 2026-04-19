@@ -1,1 +1,15 @@
+RewriteEngine On
+
+# 1. Remove /index.html from root
+RewriteRule ^index\.html$ / [R=301,L]
+
+# 2. Remove /index.html from subdirectories
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+# 3. Add trailing slash to directories (skip files with extensions)
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+
+# 4. Custom 404 error page
 ErrorDocument 404 /404.html
