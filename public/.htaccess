@@ -1,22 +1,26 @@
-# Prevent Apache from forcing the trailing slash
+# 1. Disable the automatic slash and directory indexing
 DirectorySlash Off
+Options -Indexes
 RewriteEngine On
 RewriteBase /
 
-# 1. Remove trailing slashes (External Redirect)
-# Only redirect if it's not an actual directory that needs the slash for some reason
+# 2. Cleanup: Remove trailing slash from the URL (External Redirect)
+# Added a check to make sure we don't loop on the root /
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteCond %{REQUEST_URI} ^/(.+)/$
 RewriteRule ^(.+)/$ /$1 [R=301,L]
 
-# 2. Remove index.html from the URL (External Redirect)
+# 3. Cleanup: Remove index.html from URL (External Redirect)
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1 [R=301,L]
 
-# 3. Internal Mapping (The "Nitro" magic)
-# If the request is for /site, check if /site/index.html exists and serve it quietly
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_FILENAME}/index.html -f
+# 4. Internal Rewrite: Serve the content (The "Nitro" Logic)
+# If a folder with an index.html exists, serve that
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
 RewriteRule ^(.*)$ $1/index.html [L]
+
+# 5. Internal Rewrite: If site.html exists, serve that
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.*)$ $1.html [L]
 
 ErrorDocument 404 /404.html
